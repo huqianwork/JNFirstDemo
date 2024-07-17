@@ -1,0 +1,6 @@
+framework module Pods_JNFirstDemoExample {
+  umbrella header "Pods-JNFirstDemoExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
