@@ -1,0 +1,22 @@
+{
+  "name": "CHAlertVC",
+  "version": "0.1.0",
+  "summary": "A short description of CHAlertVC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huqianwork/CHAlertVC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huqianwork": "13554511322@163.com"
+  },
+  "source": {
+    "git": "https://github.com/huqianwork/CHAlertVC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CHAlertVC/Classes/**/*"
+}

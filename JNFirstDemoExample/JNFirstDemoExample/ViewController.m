@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "CHAlert2.h"
+#import "CHAlertViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [CHAlert2 test];
+    [CHAlertViewController test];
 }
 
 

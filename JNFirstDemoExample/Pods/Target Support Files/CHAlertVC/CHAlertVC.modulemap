@@ -1,0 +1,6 @@
+framework module CHAlertVC {
+  umbrella header "CHAlertVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

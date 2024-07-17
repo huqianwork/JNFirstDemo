@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -118,7 +118,6 @@
 				392D15E91CBD4E83F6C08538 /* Pods-JNFirstDemoExampleTests.debug.xcconfig */,
 				E65744D55617AB0157A61A89 /* Pods-JNFirstDemoExampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -192,6 +191,7 @@
 				DB172E6C24AB1C3800A699A8 /* Sources */,
 				DB172E6D24AB1C3800A699A8 /* Frameworks */,
 				DB172E6E24AB1C3800A699A8 /* Resources */,
+				A28FBD68902CBA110B6971AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +229,7 @@
 				DB172E9524AB1C3B00A699A8 /* Sources */,
 				DB172E9624AB1C3B00A699A8 /* Frameworks */,
 				DB172E9724AB1C3B00A699A8 /* Resources */,
+				9F61BFDC2E60878D19E3AEE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -352,6 +353,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F61BFDC2E60878D19E3AEE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JNFirstDemoExample-JNFirstDemoExampleUITests/Pods-JNFirstDemoExample-JNFirstDemoExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JNFirstDemoExample-JNFirstDemoExampleUITests/Pods-JNFirstDemoExample-JNFirstDemoExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JNFirstDemoExample-JNFirstDemoExampleUITests/Pods-JNFirstDemoExample-JNFirstDemoExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A28FBD68902CBA110B6971AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JNFirstDemoExample/Pods-JNFirstDemoExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JNFirstDemoExample/Pods-JNFirstDemoExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JNFirstDemoExample/Pods-JNFirstDemoExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE90821E7A33BEBAF6474ED0 /* [CP] Check Pods Manifest.lock */ = {
@@ -558,13 +593,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VK2BJ8TKLS;
 				INFOPLIST_FILE = JNFirstDemoExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = XZTC.JNFirstDemoExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.hq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -576,13 +612,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VK2BJ8TKLS;
 				INFOPLIST_FILE = JNFirstDemoExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = XZTC.JNFirstDemoExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.hq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

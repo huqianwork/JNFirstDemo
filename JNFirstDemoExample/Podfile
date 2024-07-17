@@ -6,6 +6,9 @@ target 'JNFirstDemoExample' do
   use_frameworks!
 
   # Pods for JNFirstDemoExample
+  
+  pod 'CHAlertVC',:git => 'https://github.com/huqianwork/CHAlertVC.git'
+  
 
   target 'JNFirstDemoExampleTests' do
     inherit! :search_paths

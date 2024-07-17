@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: 2d98918fe90c5616a50a0caeb76c0641fd80f3ec
+PODS:
+  - CHAlertVC (0.1.0)
+
+DEPENDENCIES:
+  - CHAlertVC (from `https://github.com/huqianwork/CHAlertVC.git`)
+
+EXTERNAL SOURCES:
+  CHAlertVC:
+    :git: https://github.com/huqianwork/CHAlertVC.git
+
+CHECKOUT OPTIONS:
+  CHAlertVC:
+    :commit: 1bda402d85883f809e875e31d86e05739d7fcac6
+    :git: https://github.com/huqianwork/CHAlertVC.git
+
+SPEC CHECKSUMS:
+  CHAlertVC: a4a59fca7af909b63f5e4db9fe837260e9df5d6f
+
+PODFILE CHECKSUM: be1c7f57c6879d393138a5e246e7f1dfeee6fdd8
 
 COCOAPODS: 1.15.2
